@@ -1,17 +1,20 @@
 {
-  "name": "FEW_Date_Lib",
-  "version": "1.0.0",
+  "name": "@alexandershearer/few2_date_library",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexandershearer/FEW_Date_Lib.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "directories": {
     "test": "tests"
   },
   "scripts": {
     "test": "jest"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/alexandershearer/FEW_Date_Lib.git"
   },
   "keywords": [],
   "author": "",

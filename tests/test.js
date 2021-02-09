@@ -3,6 +3,7 @@ const D = require('../src/index')
 const now = new Date()
 const d = new D()
 
+
 test('D.year', () => {
     expect(d.year).toBe(now.getFullYear())
 })
@@ -42,3 +43,10 @@ test('D.mins', () => {
 test('D.secs', () => {
     expect(d.secs).toBe(now.getSeconds())
 })
+
+test('D.formatDate', () => {
+    expect(d.formatDate("y/m/d")).toBe("21/2/8")
+})
+
+
+
