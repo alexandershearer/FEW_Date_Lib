@@ -132,6 +132,5 @@ class D {
 
 }
 
-var test = 'Test String'
 
 module.exports = D
